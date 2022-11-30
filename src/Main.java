@@ -8,5 +8,10 @@ public class Main {
 
         var difference = Math.abs(firstBoxer - secondBoxer);
         System.out.println("Разница в весе " + difference + "кг");
+
+        var difference2 = secondBoxer % firstBoxer;
+        System.out.println("Разница в весе " + difference2 + "кг");
+
+
     }
 }
